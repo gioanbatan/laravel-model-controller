@@ -14,6 +14,10 @@
 </head>
 
 <body>
+
+    {{-- Header --}}
+    @include('partials.header')
+
     <main>
         @yield('content')
     </main>
